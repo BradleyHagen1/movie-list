@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     getData();
-  }, [page]);
+}, [page]);
 
   return (
     <div className="App">
